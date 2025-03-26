@@ -37,6 +37,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .logo {
@@ -46,7 +47,11 @@ html {
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
+.logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
 .logo:hover {
     color: var(--primary-color);
 }
