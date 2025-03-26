@@ -46,11 +46,14 @@ html {
     font-weight: 700;
     text-decoration: none;
     transition: color 0.3s ease;
+    gap: 6px;
+    font-size: 1.5rem;
 }
 .logo-img {
     height: 40px;
-    width: auto;
+    width: 2rem;
     object-fit: contain;
+    height: auto;
 }
 .logo:hover {
     color: var(--primary-color);
